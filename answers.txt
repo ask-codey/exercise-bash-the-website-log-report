@@ -1,0 +1,23 @@
+# Exercise: The Website Log Report
+#
+# Answer each question on its numbered line, after the ")". Write only the answer, like the example.
+# The answers are in site/access.log (a week of the bakery website's visits) and site/orders.csv.
+# Build each answer as a pipeline, a stage at a time: start with head, and look after every stage.
+#
+# Example: what is the status code of the first visit in site/access.log?
+# 0) 200
+
+# 1. How many visits in the week got the status code 404 (no such page)?
+1)
+
+# 2. Which page was visited most? Write it the way the log does, such as /about.
+2)
+
+# 3. Which address failed to log in most often? A failed login is a POST to /login with the status code 401.
+3)
+
+# 4. Which day had the most visits? Write it the way the log does, such as 03/Nov/2026.
+4)
+
+# 5. What were the total sales in October, in site/orders.csv? Write it with two decimals, such as 123.45.
+5)
